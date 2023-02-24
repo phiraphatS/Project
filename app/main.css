@@ -1,0 +1,57 @@
+/*My library*/
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+/* Add Font */
+/* **************************************************** */
+@font-face {
+    font-family: "Anuphan Medium";
+    src: url("Fonts/OTF/Anuphan-Medium.otf");
+}
+@font-face {
+    font-family: "Anuphan Regular";
+    src: url("Fonts/OTF/Anuphan-Regular.otf");
+}
+@font-face {
+    font-family: "Anuphan Thin";
+    src: url("Fonts/OTF/Anuphan-Thin.otf");
+}
+@font-face {
+    font-family: "Anuphan Bold";
+    src: url("Fonts/OTF/Anuphan-Bold.otf");
+}
+@font-face {
+    font-family: "Anuphan Extra Light";
+    src: url("Fonts/OTF/Anuphan-ExtraLight.otf");
+}
+@font-face {
+    font-family: "Anuphan Light";
+    src: url("Fonts/OTF/Anuphan-Light.otf");
+}
+@font-face {
+    font-family: "Anuphan SemiBold";
+    src: url("Fonts/OTF/Anuphan-SemiBold.otf");
+}
+/* **************************************************** */
+
+* {
+    font-family: "Anuphan Medium";
+    color: #5e5e5e;
+}
+
+small, p {
+    font-family: "Anuphan Regular";
+    color: #5e5e5e;
+}
+
+h1,h2 {
+    font-family: "Anuphan SemiBold";
+    color: #000;
+}
+
+h3,h4 {
+    font-family: "Anuphan SemiBold";
+}
+
+span-text {
+    font-family: "Anuphan Light";
+}
